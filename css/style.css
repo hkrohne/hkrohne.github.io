@@ -1,11 +1,13 @@
 body {
-	background: #FAEBD7 url(https://images.unsplash.com/photo-1499998477887-0617ca3eb761?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
-	color: #576861;
+	background: url(../images/leaves.jpg);
+	color: #fff;
 }
 
+/*linked text styles*/
 a {
 	text-decoration: none;
-	color: #333;
+	color: #fff;
+	font-family: 'grenze';
 }
 
 a:hover { color: Tomato; }
@@ -18,21 +20,20 @@ header, nav, main, footer {
 
 /* Header styles */
 header { 
-	background-color: #65AEC2;
+	background-color: #477361;
 	color: #fff;
-	min-height: 100px;
+	min-height: 70px;
 	margin-top: 20px;
 	font-family: 'Grenze', black;
 }
 
 header h1 {
-	padding: 40px 60px;
+	padding: 20px 60px;
 	color: white;
 }
 
-
 /* Nav styles */
-nav { background-color: #65AEC2; }
+nav { background-color: #477361; }
 nav ul { 
 	display: flex;
 	justify-content: center;
@@ -44,7 +45,7 @@ nav a:hover { color: #C24C72; }
 
 /* Main styles */
 main { 
-	background-color: #fff;
+	background-color: #477361;
 	display: grid;
 	grid-template-columns: 60% 40%;
 }
@@ -67,8 +68,9 @@ aside {
 
 /* Footer styles */
 footer { 
-	background-color: #65AEC2;
+	background-color: #477361;
 	color: white;
-	text-align: center;
+	text-align: left;
+	font-family: avenir ;
  }
  footer p { padding: 20px; }
